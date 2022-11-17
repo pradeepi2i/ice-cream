@@ -1,0 +1,134 @@
+{
+    "sourceFile": "css/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 29,
+            "patches": [
+                {
+                    "date": 1668602532679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668602543328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +0,0 @@\n-\n-    <style>\n-    display: flex;\n-    justify-content: space-around;\n-    align-items: center;\n-  </style>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603271248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\n+    <style>\n+    .header {\n+      display: flex;\n+      justify-content: space-around;\n+      align-items: center;\n+    }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603276452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \n-    <style>\n     .header {\n       display: flex;\n       justify-content: space-around;\n       align-items: center;\n"
+                },
+                {
+                    "date": 1668603286764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-\n-    .header {\n-      display: flex;\n-      justify-content: space-around;\n-      align-items: center;\n-    }\n\\ No newline at end of file\n+.header {\n+    display: flex;\n+    justify-content: space-around;\n+    align-items: center;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603546681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .header {\n     display: flex;\n     justify-content: space-around;\n     align-items: center;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1668603551845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,5 @@\n     display: flex;\n     justify-content: space-around;\n     align-items: center;\n }\n+.navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603557018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n     display: flex;\n     justify-content: space-around;\n     align-items: center;\n }\n-.navbar\n\\ No newline at end of file\n+.navbar-center \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603562434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,8 @@\n     display: flex;\n     justify-content: space-around;\n     align-items: center;\n }\n-.navbar-center \n\\ No newline at end of file\n+.navbar-center {\n+    display: flex;\n+    justify-content: center;\n+}\n"
+                },
+                {
+                    "date": 1668603568222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,5 @@\n .navbar-center {\n     display: flex;\n     justify-content: center;\n }\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603574401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n .navbar-center {\n     display: flex;\n     justify-content: center;\n }\n-.\n\\ No newline at end of file\n+.navigation\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603580782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,7 @@\n .navbar-center {\n     display: flex;\n     justify-content: center;\n }\n-.navigation\n\\ No newline at end of file\n+.navigation {\n+    m\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603581254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n     display: flex;\n     justify-content: center;\n }\n .navigation {\n-    m\n+    ma\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603588132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n     display: flex;\n     justify-content: center;\n }\n .navigation {\n-    ma\n+    margin-left: em;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603594097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n     display: flex;\n     justify-content: center;\n }\n .navigation {\n-    margin-left: em;\n+    margin-left: .5em;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603623584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,6 @@\n     justify-content: center;\n }\n .navigation {\n     margin-left: .5em;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603628778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n     justify-content: center;\n }\n .navigation {\n     margin-left: .5em;\n-    \n+    padding: .;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603641458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n     display: flex;\n     justify-content: center;\n }\n .navigation {\n-    margin-left: .5em;\n-    padding: .;\n+  \n+    padding: .2rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603747228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .header {\n     display: flex;\n-    justify-content: space-around;\n+    justify-content: space-b;\n     align-items: center;\n }\n .navbar-center {\n     display: flex;\n"
+                },
+                {
+                    "date": 1668603848999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,12 @@\n .header {\n     display: flex;\n-    justify-content: space-b;\n+    justify-content: space-between;\n     align-items: center;\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n }\n-.navigation {\n-  \n+.navigation {  \n     padding: .2rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603855060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,6 @@\n     justify-content: center;\n }\n .navigation {  \n     padding: .2rem;\n+    margin-right: 3;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603861480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n+    \n }\n .navigation {  \n     padding: .2rem;\n-    margin-right: 3;\n+    margin-right: 3rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668603866821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n-    \n+    padding: ;\n }\n .navigation {  \n     padding: .2rem;\n     margin-right: 3rem;\n"
+                },
+                {
+                    "date": 1668603871972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n-    padding: ;\n+    padding: 1rem;\n }\n .navigation {  \n     padding: .2rem;\n     margin-right: 3rem;\n"
+                },
+                {
+                    "date": 1668603877511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n-    padding: 1rem;\n+    padding: rem;\n }\n .navigation {  \n     padding: .2rem;\n     margin-right: 3rem;\n"
+                },
+                {
+                    "date": 1668603941789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,14 @@\n .header {\n     display: flex;\n     justify-content: space-between;\n     align-items: center;\n+    \n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n-    padding: rem;\n+    padding: 2rem;\n }\n .navigation {  \n     padding: .2rem;\n     margin-right: 3rem;\n"
+                },
+                {
+                    "date": 1668603947356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .header {\n     display: flex;\n     justify-content: space-between;\n     align-items: center;\n-    \n+    padding: 0rem;\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n"
+                },
+                {
+                    "date": 1668604003766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .header {\n     display: flex;\n     justify-content: space-between;\n     align-items: center;\n-    padding: 0rem;\n+    padding: 0rem 2rem;\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n@@ -11,5 +11,5 @@\n }\n .navigation {  \n     padding: .2rem;\n     margin-right: 3rem;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1668604011405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n     padding: .2rem;\n     margin-right: 3rem;\n }\n .fa {\n-    p\n+    pa\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1668604515053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .header {\n     display: flex;\n     justify-content: space-between;\n     align-items: center;\n-    padding: rem 2rem;\n+    padding: 2rem 2rem;\n }\n .navbar-center {\n     display: flex;\n     justify-content: center;\n"
+                }
+            ],
+            "date": 1668602532679,
+            "name": "Commit-0",
+            "content": "\n    <style>\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n  </style>"
+        }
+    ]
+}
