@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar{
     padding-block-start: 20px;
@@ -30,11 +30,19 @@ body{
     padding: 8px;
     text-transform: uppercase;
 }
+.navigation img:hover{
+    cursor: pointer;
+}
 .navbar-right .top-nav-icon {
     width: 25px;
     height: 22px;
     padding: 17px 11px 14px 14px;
     margin-block-start: 2px;
+}
+.top-nav-icon:hover{
+    color: #fd5f87;
+    cursor: pointer;
+
 }
 .strawberry-big {
     width: -webkit-fill-available;
@@ -91,6 +99,9 @@ body{
     color: #fc5f87;
     font-weight: bold;
     opacity: .9;
+}
+.price:hover{
+    cursor: pointer;
 }
 .old-price{
     text-decoration: line-through;
@@ -168,7 +179,12 @@ body{
 .nav-icon{
     border-radius: 50%;
     background-color: #fff;
-    color: #fd5f87;
+    color: #bc4950;
+    text-align: center;
+    width: 30px;
+    height: 23px;
+    margin-top: 5px;
+    padding-block-start: 4px;
 }
 .nav{
     padding: 10px 0px;
@@ -214,37 +230,44 @@ body{
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    font-size: 15px;
     background-color: #fd5f87;
-    padding: 3px 7px;
+    padding: 6px 17px;
     border: none;
     border-radius: 30px;
     position: absolute;
-    margin-left: 250px;
+    margin-left: 210px;
     margin-top: 10px;
+    opacity: .9;
 }
 .sale-only{
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    font-size: 15px;
     background-color: #e0b86e;
-    padding: 3px 5px;
-    border-radius: 30px;
+    padding: 6px 15px;
     border: none;
+    border-radius: 30px;
     position: absolute;
-    margin-left: 250px;
+    margin-left: 210px;
     margin-top: 10px;
+    opacity: .9;
 }
 .sale{
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    font-size: 15px;
     background-color:   #e0b86e;
-    padding: 3px 5px;
-    border-radius: 30px;
+    padding: 6px 14px;
     border: none;
+    border-radius: 30px;
     position: absolute;
-    margin-left: 250px;
-    margin-top: 41px;
+    margin-left: 210px;
+    margin-top: 50px;
+    opacity:.9;
+
 }
 .count{
     text-align: center;
@@ -265,9 +288,6 @@ h3 {
     text-transform: uppercase;
     margin-bottom: 3px;
     margin-top: 15px;
-}
-#home{
-    color: #fd5f87;    
 }
 #menu {
     width: 40px;
