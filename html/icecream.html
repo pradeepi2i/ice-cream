@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;400;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;400;200&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -15,102 +18,93 @@
     <title>Ice-cream</title>
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-      <div class="header">
-        <div class="navbar-left">
-          <img src="/images/logo.png" alt="logo" class="title" />
-        </div>
-        <div class="navbar-center">
-          <span class="navigation" id="home"
-            >Home<i class="fa fa-angle-down down-arrow" aria-hidden="true"></i
-          ></span>
-          <span class="navigation"
-            >Features<i
-              class="fa fa-angle-down down-arrow"
-              aria-hidden="true"
-            ></i
-          ></span>
-          <span class="navigation"
-            >Shop<i class="fa fa-angle-down down-arrow" aria-hidden="true"></i
-          ></span>
-          <span class="navigation">Blog</span>
-          <span class="navigation">About Us</span>
-          <span class="navigation">Contact</span>
-        </div>
-        <div class="navbar-right">
-          <img class="top-nav-icon" id="search" src="/images/search.svg" alt="search">
-          <button class="count">0</button>
-          <img class="top-nav-icon" src="/images/bag.svg" alt="cart" id="bag">
-          <img class="top-nav-icon" src="/images/menu.svg" alt="menu" id="menu">
-        </div>
+    <div class="header">
+      <div class="navbar-left">
+        <img src="/images/logo.png" alt="logo" class="title" />
+      </div>
+      <div class="navbar-center">
+
+        <span class="navigation" id="home"
+          >Home<i class="fa fa-angle-down down-arrow" aria-hidden="true"></i
+        ></span>
+        <span class="navigation"
+          >Features<i class="fa fa-angle-down down-arrow" aria-hidden="true"></i
+        ></span>
+        <span class="navigation"
+          >Shop<i class="fa fa-angle-down down-arrow" aria-hidden="true"></i
+        ></span>
+        <span class="navigation">Blog</span> 
+        <span class="navigation">AboutUs</span>
+        <span class="navigation">Contact</span>
+      </div>
+      <div class="navbar-right">
+        <img
+          class="top-nav-icon"
+          id="search"
+          src="/images/search.svg"
+          alt="search"
+        />
+        <button class="count">0</button>
+        <img class="top-nav-icon" src="/images/bag.svg" alt="cart" id="bag" />
+        <img class="top-nav-icon" src="/images/menu.svg" alt="menu" id="menu" />
       </div>
     </div>
+    <div class="container">
       <div class="top-container">
-        <div class="panel1">
-          <div class="large-left-square-1">
+        <div class="large-left-square-1">
+          <img
+            id="large-left"
+            src="/images/strawberry-big.jpg"
+            alt="strawberry-big"
+            class="strawberry-big"
+          />
+        </div>
+        <div class="right-rectangle-1">
+          <div class="small-ice-row-1-col-1">
             <img
-              id="large-left"
-              src="/images/strawberry-big.jpg"
-              alt="strawberry-big"
-              class="strawberry-big"
+              class="small-ice"
+              src="/images/ice-1.jpg"
+              alt="Tiramisu Flavour"
             />
-          </div>
-          <div class="right-rectangle-1">
-            <div class="rectangle">
-              <div class="small-ice-row-1-col-1">
-                <img
-                  class="small-ice"
-                  src="/images/ice-1.jpg"
-                  alt="Tiramisu Flavour"
-                />
-                <button class="hot">Hot</button>
-                <div class="txt">
-                  <p class="flavour">Ice Cream With Tiramisu Flavour</p>
-                  <span class="price">$12.00</span>
-                </div>
-              </div>
-              <div class="small-ice-row-1-col-2">
-                <img
-                  class="small-ice"
-                  src="/images/ice-2.jpg"
-                  alt="Scrachatella"
-                />
-                <button class="hot">Hot</button>
-                <button class="sale">Sale</button>
-                <div class="txt">
-                  <p class="flavour">Scrachatella Ice Cream</p>
-                  <span class="price">$36.90</span>
-                  <span class="old-price">&nbsp$41.00</span>
-                </div>
-              </div>
+            <button class="hot">Hot</button>
+            <div class="txt">
+              <p class="flavour">Ice Cream With Tiramisu Flavour</p>
+              <span class="price">$12.00</span>
             </div>
-            <div class="rectangle">
-              <div class="small-ice-row-1-col-1">
-                <img
-                  class="small-ice"
-                  src="/images/ice-3.jpg"
-                  alt="Tiramisu Flavour"
-                />
-                <button class="hot">Hot</button>
-                <div class="txt">
-                  <p class="flavour">Cream with strawberry</p>
-                  <span class="price">$15.00</span>
-                </div>
-              </div>
-              <div class="small-ice-row-1-col-2">
-                <img
-                  class="small-ice"
-                  src="/images/ice-4.jpg"
-                  alt="Cappuccino Ice Cream"
-                />
-                <button class="sale-only">Sale</button>
-                <div class="txt">
-                  <p class="flavour">Cappuccino Ice Cream</p>
-                  <span class="price">$18.90</span>
-                  <span class="old-price">&nbsp$20.00</span>
-                </div>
-              </div>
+          </div>
+          <div class="small-ice-row-1-col-2">
+            <img class="small-ice" src="/images/ice-2.jpg" alt="Scrachatella" />
+            <button class="hot">Hot</button>
+            <button class="sale">Sale</button>
+            <div class="txt">
+              <p class="flavour">Scrachatella Ice Cream</p>
+              <span class="price">$36.90</span>
+              <span class="old-price">&nbsp$41.00</span>
+            </div>
+          </div>
+          <div class="small-ice-row-1-col-1">
+            <img
+              class="small-ice"
+              src="/images/ice-3.jpg"
+              alt="Tiramisu Flavour"
+            />
+            <button class="hot">Hot</button>
+            <div class="txt">
+              <p class="flavour">Cream with strawberry</p>
+              <span class="price">$15.00</span>
+            </div>
+          </div>
+          <div class="small-ice-row-1-col-2">
+            <img
+              class="small-ice"
+              src="/images/ice-4.jpg"
+              alt="Cappuccino Ice Cream"
+            />
+            <button class="sale-only">Sale</button>
+            <div class="txt">
+              <p class="flavour">Cappuccino Ice Cream</p>
+              <span class="price">$18.90</span>
+              <span class="old-price">&nbsp$20.00</span>
             </div>
           </div>
         </div>
@@ -131,72 +125,66 @@
         </div>
       </div>
       <div class="top-container">
-        <div class="panel1">
-          <div class="right-rectangle-1">
-            <div class="rectangle">
-              <div class="small-ice-row-1-col-1">
-                <img
-                  class="small-ice"
-                  src="/images/ice-5.jpg"
-                  alt="Ice Cream Covered With Chocolate & Nuts"
-                />
-                <div class="txt">
-                  <p class="flavour">Ice Cream Covered With Chocolate & Nuts</p>
-                  <span class="price">$60.00</span>
-                </div>
-              </div>
-              <div class="small-ice-row-1-col-2">
-                <img
-                  class="small-ice"
-                  src="/images/ice-6.jpg"
-                  alt="Colorful Popsicles Isolated"
-                />
-                <button class="hot">Hot</button>
-                <button class="sale">Sale</button>
-                <div class="txt">
-                  <p class="flavour">Colorful Popsicles Isolated</p>
-                  <span class="price">$54.00</span>
-                  <span class="old-price">&nbsp$69.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="rectangle">
-              <div class="small-ice-row-1-col-1">
-                <img
-                  class="small-ice"
-                  src="/images/ice-7.jpg"
-                  alt="Ice Cream Covered With Chocolate "
-                />
-                <button class="hot">Hot</button>
-                <button class="sale">Sale</button>
-                <div class="txt">
-                  <p class="flavour">Ice Cream Covered With Chocolate</p>
-                  <span class="price">$27.00</span>
-                  <span class="old-price">&nbsp$42.00</span>
-                </div>
-              </div>
-              <div class="small-ice-row-1-col-2">
-                <img
-                  class="small-ice"
-                  src="/images/ice-4.jpg"
-                  alt="Colorful Popsicles Isolated"
-                />
-                <button class="hot">Hot</button>
-                <div class="txt">
-                  <p class="flavour">Colorful Popsicles Isolated</p>
-                  <span class="price">$69.90</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="large-left-square-1">
+        <div class="right-rectangle-1">
+          <div class="small-ice-row-1-col-1">
             <img
-              id="large-left"
-              src="/images/cone-big.jpg"
-              alt="cone-big"
-              class="strawberry-big"
+              class="small-ice"
+              src="/images/ice-5.jpg"
+              alt="Ice Cream Covered With Chocolate & Nuts"
             />
+            <div class="txt">
+              <p class="flavour">Ice Cream With Chocolate & Nuts</p>
+              <span class="price">$60.00</span>
+            </div>
           </div>
+          <div class="small-ice-row-1-col-2">
+            <img
+              class="small-ice"
+              src="/images/ice-6.jpg"
+              alt="Colorful Popsicles Isolated"
+            />
+            <button class="hot">Hot</button>
+            <button class="sale">Sale</button>
+            <div class="txt">
+              <p class="flavour">Colorful Popsicles Isolated</p>
+              <span class="price">$54.00</span>
+              <span class="old-price">&nbsp$69.00</span>
+            </div>
+          </div>
+          <div class="small-ice-row-1-col-1">
+            <img
+              class="small-ice"
+              src="/images/ice-7.jpg"
+              alt="Ice Cream Covered With Chocolate "
+            />
+            <button class="hot">Hot</button>
+            <button class="sale">Sale</button>
+            <div class="txt">
+              <p class="flavour">Ice Cream Covered With Chocolate</p>
+              <span class="price">$27.00</span>
+              <span class="old-price">&nbsp$42.00</span>
+            </div>
+          </div>
+          <div class="small-ice-row-1-col-2">
+            <img
+              class="small-ice"
+              src="/images/ice-4.jpg"
+              alt="Colorful Popsicles Isolated"
+            />
+            <button class="hot">Hot</button>
+            <div class="txt">
+              <p class="flavour">Colorful Popsicles Isolated</p>
+              <span class="price">$69.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="large-right-square-1">
+          <img
+            id="large-left"
+            src="/images/cone-big.jpg"
+            alt="cone-big"
+            class="strawberry-big"
+          />
         </div>
       </div>
       <div class="bottom-container">
@@ -204,9 +192,9 @@
           <img src="/images/product-1.png" alt="coffee" class="product" />
           <img src="/images/product-2.png" alt="chocolate" class="product" />
           <img src="/images/product-3.png" alt="market" class="product" />
-          <img src="/images/product-4.png" alt="mountain" class="product" />
-          <img src="/images/product-5.png" alt="mountainbike" class="product" />
-          <img src="/images/product-6.png" alt="morelle" class="product" />
+          <img src="/images/product-4.png" alt="mountain" id="mountain"class="product" />
+          <img src="/images/product-5.png" alt="mountainbike"  id ="mountainbike" class="product" />
+          <img src="/images/product-6.png" alt="morelle" id="morelle" class="product" />
         </div>
         <div class="bottom-middle-container">
           <div class="details">
@@ -260,11 +248,11 @@
                   <hr class="dot" />
                 </div>
                 <div class="link">
-                  <p>About Us</p>
-                  <p>Portfolio</p>
-                  <p>Terms Of Service</p>
-                  <p>Privacy Policy</p>
-                  <p>Contact Us</p>
+                  <p class="link-text">About Us</p>
+                  <p class="link-text">Portfolio</p>
+                  <p class="link-text">Terms Of Service</p>
+                  <p class="link-text">Privacy Policy</p>
+                  <p class="link-text">Contact Us</p>
                 </div>
               </div>
               <div class="direction-title">
